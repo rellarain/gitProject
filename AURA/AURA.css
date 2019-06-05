@@ -74,3 +74,27 @@ li {
     padding: 0;
     color: white
 }
+.AButton {
+    border-radius: 20px;
+    background-color: forestgreen;
+    color: white;
+    box-align: center;
+}
+.UButton {
+    border-radius: 20px;
+    background-color: rgb(64, 169, 235);
+    color: white;
+    box-align: center;
+}
+.RButton {
+    border-radius: 20px;
+    background-color: rgb(150, 67, 150);
+    color: white;
+    box-align: center;}
+.APButton {
+    border-radius: 20px;
+    background-color: rgb(150, 25, 25);
+    color: white;
+    display: inline;
+    text-align: center;
+}
