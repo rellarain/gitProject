@@ -1,3 +1,4 @@
+/*Header Stuff*/
 header {
     background-color: black;
     color: white;
@@ -13,30 +14,6 @@ header {
      padding: 0px 0px 5px 0px;
      position: static;
  }
- .teeny {
-     font-size: 5px;
-     color: black;
- }
-h1 {
-    font-size: 30px; 
-    text-align: center; 
-    letter-spacing: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 5px;
-}
-h2 {
-    font-size: 25px; text-align: center; margin: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-weight: 400; letter-spacing: 20px; color: white; font-variant: small-caps;
-}
-h3 {
-    font-size: 20px; text-align: left;
-}
-h4 {
-    font-size: 15px;
-}
-p {
-    font-size: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .AHeading {
     color: forestgreen;
     font-weight: 900;
@@ -73,53 +50,126 @@ p {
     .APHeading a:hover {color: white; text-decoration: none;}
     .APHeading a:visited {color: rgb(150, 25, 25); text-decoration: none;}
     .APHeading a:active {color: rgb(150, 25, 25); text-decoration: none;}
-.Opener {
-    margin: 20px; padding: 15px;
+
+
+ /*Headings*/
+h1 {
+    font-size: 30px; 
+    text-align: center; 
+    letter-spacing: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
 }
-#Background {
-    background-image: linear-gradient(to right, forestgreen, rgb(64, 169, 235),  rgb(150, 67, 150), rgb(150, 25, 25)); border-radius: 20px; height: 40px;
+h2 {
+    font-size: 20px; text-align: center; margin: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 700; letter-spacing: 5px; color: white; font-variant: small-caps;
 }
-li {
-    text-align: center;
+h3 {
+    font-size: 20px; text-align: left;
+}
+h4 {
+    font-size: 15px;
+}
+
+ .teeny {
+     font-size: 5px;
+     color: black;
+ }
+
+ /*Self Cards*/
+.ACard {
+    float: left;
+    max-width: 23%;
+    min-width: 20%;
+    margin: 1%;
+    border-radius: 15px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+.UCard {
+    float: left;
+    max-width: 23%;
+    min-width: 20%;
+    margin: 1%;
+    border-radius: 15px;
+    background-color: rgb(64, 169, 235);
+    display: inline-block;
+}
+.RCard {
+    float: left;
+    max-width: 23%;
+    min-width: 20%;
+    margin: 1%;
+    border-radius: 15px;
+    background-color: rgb(150, 67, 150);
+    display: inline-block;
+}
+.APCard {
+    float: left;
+    max-width: 23%;
+    min-width: 20%;
+    margin: 1%;
+    border-radius: 15px;
+    background-color: rgb(150, 25, 25);
+    display: inline-block;
+}
+.Function {
+    text-align: left;
     padding: 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     font-weight: 600;
 }
-td {
-    padding: 10px;
-    align-content: center;
-    width: 20%;
+.FunctionDesc {
+    text-indent: 6px;
 }
-.doodoo {
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-    color: white
+
+
+
+
+
+
+p {
+    font-size: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
+
+
 
 /* Buttons*/
 .AButton {
+    display: inline-block;
     border-radius: 20px;
     background-color: forestgreen;
     color: white;
     box-align: center;
+    text-decoration: none;
 }
 .UButton {
+    display: inline-block;
     border-radius: 20px;
     background-color: rgb(64, 169, 235);
     color: white;
     box-align: center;
+    text-decoration: none;
 }
 .RButton {
+    display: inline-block;
     border-radius: 20px;
     background-color: rgb(150, 67, 150);
     color: white;
-    box-align: center;}
+    box-align: center;
+    text-decoration: none;
+}
+    
 .APButton {
+    display: inline-block;
     border-radius: 20px;
     background-color: rgb(150, 25, 25);
     color: white;
     display: inline;
     text-align: center;
+    text-decoration: none;
 }
