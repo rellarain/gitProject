@@ -3,18 +3,19 @@ header {
     color: white;
     font-size: 20px;
     text-indent: 2.5%;
-    height: 20px; 
+    height: 30px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  .rainbowborder {
      background: linear-gradient(to right, forestgreen, rgb(64, 169, 235), rgb(150, 67, 150), rgb(150, 25, 25));
-     height: 20px;
+     height: 30px;
      max-width: 100%;
      padding: 0px 0px 5px 0px;
      position: static;
  }
  .teeny {
-     font-size: 6px;
+     font-size: 5px;
+     color: black;
  }
 h1 {
     font-size: 30px; 
@@ -36,40 +37,47 @@ h4 {
 p {
     font-size: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.A {
+.AHeading {
     color: forestgreen;
     font-weight: 900;
     letter-spacing: 3px;
 }
-.U {
+    .AHeading a:link {color: forestgreen; text-decoration: none;}
+    .AHeading a:hover {color: white; text-decoration: none;}
+    .AHeading a:visited {color: forestgreen; text-decoration: none;}
+    .AHeading a:active {color: forestgreen; text-decoration: none;}
+.UHeading {
     color: rgb(64, 169, 235);
     font-weight: 900;
     letter-spacing: 3px;
 }
-.R {
+    .UHeading a:link {color: rgb(64, 169, 235); text-decoration: none;}
+    .UHeading a:hover {color: white; text-decoration: none;}
+    .UHeading a:visited {color: rgb(64, 169, 235); text-decoration: none;}
+    .UHeading a:active {color: rgb(64, 169, 235); text-decoration: none;}
+.RHeading {
     color: rgb(150, 67, 150);
     font-weight: 900;
     letter-spacing: 3px;
 }
-.AP {
+    .RHeading a:link {color: rgb(150, 67, 150); text-decoration: none;}
+    .RHeading a:hover {color: white; text-decoration: none;}
+    .RHeading a:visited {color: rgb(150, 67, 150); text-decoration: none;}
+    .RHeading a:active {color: rgb(150, 67, 150); text-decoration: none;}
+.APHeading {
     color: rgb(150, 25, 25);
     font-weight: 900;
     letter-spacing: 3px;
 }
+    .APHeading a:link {color: rgb(150, 25, 25); text-decoration: none;}
+    .APHeading a:hover {color: white; text-decoration: none;}
+    .APHeading a:visited {color: rgb(150, 25, 25); text-decoration: none;}
+    .APHeading a:active {color: rgb(150, 25, 25); text-decoration: none;}
 .Opener {
     margin: 20px; padding: 15px;
 }
 #Background {
     background-image: linear-gradient(to right, forestgreen, rgb(64, 169, 235),  rgb(150, 67, 150), rgb(150, 25, 25)); border-radius: 20px; height: 40px;
-}
-.content {
-    align-content: center;
-    column-count: 4;
-    column-gap: 70px;
-    column-span: none;
-    column-rule-width: 18%;
-    column-rule-style: solid;
-    padding: 10px;
 }
 li {
     text-align: center;
@@ -89,6 +97,8 @@ td {
     padding: 0;
     color: white
 }
+
+/* Buttons*/
 .AButton {
     border-radius: 20px;
     background-color: forestgreen;
