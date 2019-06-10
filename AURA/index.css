@@ -50,7 +50,9 @@ header {
     .APHeading a:hover {color: white; text-decoration: none;}
     .APHeading a:visited {color: rgb(150, 25, 25); text-decoration: none;}
     .APHeading a:active {color: rgb(150, 25, 25); text-decoration: none;}
-
+    .teeny {
+        font-size: 5px;
+        color: rgba(0, 0, 0, 0);}
 
  /*Headings*/
 h1 {
@@ -71,9 +73,7 @@ h4 {
     font-size: 15px;
 }
 
- .teeny {
-     font-size: 5px;
-     color: black;
+
  }
 
  /*Self Cards*/
