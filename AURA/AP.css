@@ -50,7 +50,7 @@ header {
     .APHeading a:hover {color: white; text-decoration: none;}
     .APHeading a:visited {color: rgb(150, 25, 25); text-decoration: none;}
     .APHeading a:active {color: rgb(150, 25, 25); text-decoration: none;}
-    .teeny {
+.teeny {
         font-size: 5px;
         color: rgba(0, 0, 0, 0);}
 
@@ -67,15 +67,15 @@ header {
 
 /*Card Styling*/
 
-.AestheticsCard {
+.AptitudeCard {
     width: 350px; 
     height: 500px;
-    background-color: forestgreen;
+    background-color: rgb(150, 25, 25);
     position: static;
     display: inline-block;
     float: left;
     margin: 20px;
-    box-shadow: 10px 5px 5px rgba(0, 100, 0, 0.349);
+    box-shadow: 10px 5px 5px rgba(58, 15, 15, 0.363);
 }
 .CardPicture {
     height: 150px;
@@ -89,16 +89,16 @@ header {
     left: 10px;
     width: 250px;
     height: 35px;
-    background-color: rgb(195, 247, 195);
+    background-color: rgb(238, 149, 149);
     text-align: center;
     vertical-align: 50%;
     letter-spacing: 4px;
     font-variant: small-caps;
-    box-shadow: 5px 5px 2.5px rgba(0, 100, 0, 0.349);
+    box-shadow: 5px 5px 2.5px rgba(58, 15, 15, 0.363);
     font-weight: 800;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.AestheticsCardFunction {
+.AptitudeCardFunction {
     font-size: 25px;
-    color: forestgreen;
+    color: rgb(150, 25, 25);
 }
