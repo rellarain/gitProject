@@ -141,6 +141,9 @@ header {
     letter-spacing: 2px;
     box-shadow: inset 3px 3px 3px rgba(25, 42, 53, 0.479);
 }
+.traitcard:hover {
+    box-shadow: 4px 4px 3px rgba(25, 42, 53, 0.479);
+}
 footer {
     margin-top: 10px;
     min-height: 30px;
