@@ -69,7 +69,7 @@ header {
 
 .ResilienceCard {
     width: 350px; 
-    min-height: 350px;
+    min-height: 360px;
     background-color: rgb(150, 67, 150);
     position: static;
     display: inline-block;

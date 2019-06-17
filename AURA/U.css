@@ -69,7 +69,7 @@ header {
 
 .UnityCard {
     width: 350px; 
-    min-height: 350px;
+    min-height: 360px;
     background-color: rgb(64, 169, 235);
     position: static;
     display: inline-block;
