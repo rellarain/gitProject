@@ -43,17 +43,24 @@ function buildPrompt (userAction) {
     
     promptString += "-------\nRULES\n1. actions: stock/buy \n2. quantity\n3. item\nexample: buy 5 guavas\n-------\n";
     promptString += "Store Inventory: \n-------\n";
+ 
 
 
     //  loop through inventory array and create a nice looking string
     for(var i = 0; i < store.length; i ++) {
         // Item name
         promptString += (store[i][0] + ": ");
-
+        
         // Item Count
         promptString += (store[i][1] + "\n");
     }
-
+    if (store[i][1] <= 1 && store[i][1] > 0) {
+        return storeOperations(buildPrompt("Running low on " + item));
+    }
+    if (store[i][1] === 0) {
+        return storeOperations(buildPrompt("We are out of " + item));
+    }
+    
     console.log(promptString);
     return promptString;
 }
@@ -99,20 +106,12 @@ function processUserInput (userInput) {
                 return storeOperations(buildPrompt("You bought " + count + " " + item));
 
             } 
-            if(store[j][1] <= 1) {
-                
-                return storeOperations(buildPrompt("Running low on " + item));
-            }
-            if (store[j][1] === 0) {
-                
-                return storeOperations(buildPrompt("We are out of " + item));
-            }
-            //2a. action: (buy)
+            //2a. action: (stock)
             if(action === "stock") {
                 store[j][1] += count;
                 return storeOperations(buildPrompt("You stocked " + count + " " + item));
             }
-
+            
         }
     }
 
