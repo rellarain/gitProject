@@ -1,13 +1,13 @@
 console.log("1. Hello Welcome to your first test.");
 console.log('2. We are excited to have you.');
 console.log('3. We are going to have some fun today.'); 
-console.log("4. You called me from inside a function! Yay!");
+
 
 function ifAndElses () {
     var apples = 10,
-        oranges = 10,
+        oranges = "10",
         kiwis = 20;
-    
+    console.log("4. You called me from inside a function! Yay!");
     //Do a few comparisons
     if(apples == oranges ) {
         console.log("5. You compared apples to oranges. This is highly unusual");
@@ -31,8 +31,10 @@ function loopArray () {
     console.log("I want to see which loop we are on 5 times");
     for (i=1; i <= 5; i++) {
         console.log("7. We are on loop:", i);
+        console.log(i.length);
     }
     if (i.length = 5) {
+        console.log(i.length);
         console.log("8. Good job you made it!");    
     } 
     else {

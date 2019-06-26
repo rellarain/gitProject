@@ -18,38 +18,18 @@ console.log(LetterList);
 //---------------------------------
 
 
-/* create a string for the user to see current inv 
-// string builder variable = strbuild
-nested loops (i, j)
-    // 1. if j (arr[1])
-        // Means quantity
-        //strbuild += arr[i][j];
-    // 2. else j is at 0
-        // means name
-// place into prompt
-*/
+var inventory = [
+    ["Eye of Newt", 9], 
+    ["Dragon Scales", 16], 
+    ["Souls of Children",51], 
+    ["Mandrake Root",6], 
+    ["Whispering Salts",49], 
+    ["Yggdrasil Roots",20], 
+    ["Yeti Mints",14], 
+    ["Wizard Chinhairs",223], 
+    ["Witch's Wart",9], 
+    ["Couldron Crusts",26]];
+//
 
-var GrocItems = ["eggs", "dog biscuits", "blood oranges", "tampico", "fried chicken", "pickles", "lotion", "mascara", "soap", "poptarts"];
-var GrocQuan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-function Pairing (x) {
-    x = GrocItems[x];
-    y = GrocQuan[x];
-    for (x=0; x<= GrocItems.length; x++) {
-        console.log(x+y);
-    }
-}
-Pairing();
-
-// function prompter (y, x) {
-//     var y = GrocItems[y];
-//     var z = GrocInv[z];
-//     var GrocPair = y + x;
-//     alert("This is the current inventory:");
-//     prompt("Place your order in a number below") = "" + purchase;
-//     var purchase = GrocInv - purchase;
-
-    
-// }
-
-// prompter();
+customerActions(buildPrompt());
