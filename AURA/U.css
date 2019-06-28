@@ -82,7 +82,7 @@ header {
     background-color: rgb(64, 169, 235);
     position: static;
     display: inline-block;
-    float: left;
+    float: center;
     margin: 20px 20px 0 20px;
     box-shadow: 10px 5px 5px rgba(35, 93, 129, 0.349);
 }
@@ -110,6 +110,9 @@ header {
 .UnityCardFunction {
     font-size: 25px;
     color: rgb(47, 126, 175);
+}
+.CardContainer {
+    box-align: center;
 }
 .FunctionDesc {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -145,11 +148,18 @@ header {
     font-weight: 500px;
     float: right;
     background-color: rgb(67, 113, 141);
-    color: white;
+    color: rgb(158, 158, 158);
     position: relative;
     letter-spacing: 2px;
     box-shadow: inset 3px 3px 3px rgba(25, 42, 53, 0.479);
 }
+
+.traitcard a:link {color: white; text-decoration: none;}
+.traitcard a:visited {color: white; text-decoration: none;}
+.traitcard a:active {color: white; text-decoration: none;}
+.traitcard a:hover {color: white; text-decoration: none;}
+
+
 .traitcard:hover {
     box-shadow: 4px 4px 3px rgba(25, 42, 53, 0.479);
 }

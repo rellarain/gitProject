@@ -146,7 +146,7 @@ header {
     font-weight: 500px;
     float: right;
     background-color: rgb(50, 107, 50);
-    color: white;
+    color: rgb(158, 158, 158);
     position: relative;
     letter-spacing: 2px;
     box-shadow: inset 3px 3px 3px rgba(0, 36, 0, 0.459);
@@ -154,6 +154,13 @@ header {
 .traitcard:hover {
     box-shadow: 4px 4px 3px rgba(0, 36, 0, 0.459);
 }
+
+.traitcard a:link {color: white; text-decoration: none;}
+.traitcard a:visited {color: white; text-decoration: none;}
+.traitcard a:active {color: white; text-decoration: none;}
+.traitcard a:hover {color: white; text-decoration: none;}
+
+
 footer {
     margin-top: 10px;
     min-height: 30px;
