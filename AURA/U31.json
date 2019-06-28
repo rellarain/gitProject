@@ -2,6 +2,7 @@
    { "U31A": {
       "U31ATitle": "Identification",
       "U31APrompt1": "What gender identity(s) do you identify as?",
+      //Factor statements
       "U31A1": "I identify as a man.",
       "U31A2": "I identify as a woman.",
       "U31A3": "I identify as masculine.",
@@ -12,19 +13,21 @@
       "U31A8": "I identify as cisgender.",
       "U31A9": "I identify as nonbinary.",
       "U31A0": "I identify as genderfluid.",
-      "U31ARate1": "Do you identify this way often?",
+      "U31ANone": "My gender is unidentified.",
+      //Factor Rating and Weighting criteria
+      "U31ARate1": "Do you identify this way often?", //
       "U31ARate2": "Is this identity important to you?",
       "U31ARate3": "Do you group yourself with others identifying this way?",
-      "U31ARate4": "",
-      "U31AWeight1": "",
-      "U31AWeight2": "",
-      "U31AWeight3": "",
-      "U31AWeight4": "",
-      "U31AWeight5": "",
+      "U31ARate4": "How confident are you in your gender identity?",
+      "U31AWeight1": "Does this matter in social situations for you?",
+      "U31AWeight2": "Internalized",
+      "U31AWeight3": "Does this identity apply to your overall gender?",
+      "U31AWeight4": "Is this how you categorize yourself with others?",
+      "U31AWeight5": "Definition",
    }}
    { "U31B" : {
-      "U31BTitle": "",
-      "U31BPrompt": "",
+      "U31BTitle": "Performance",
+      "U31BPrompt1": "",
       "U31B1": "",
       "U31B2": "",
       "U31B3": "",
@@ -33,7 +36,24 @@
       "U31B6": "",
       "U31B7": "",
       "U31B8": "",
-      "U31B9" : "",
-      "U31B0" : "",
+      "U31B9": "",
+      "U31B0": "",
+      "U31BNone": "",
    }}
+   { "U31C": {
+      "U31CTitle": "Presentation",
+      "U31CPrompt1": "",
+      "U31C1": "",
+      "U31C2": "",
+      "U31C3": "",
+      "U31C4": "",
+      "U31C5": "",
+      "U31C6": "",
+      "U31C7": "",
+      "U31C8": "",
+      "U31C9": "",
+      "U31C0": "", 
+      "U31CNone": "",
+   }}
+
 ]

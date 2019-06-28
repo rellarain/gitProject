@@ -82,7 +82,7 @@ header {
     background-color: rgb(64, 169, 235);
     position: static;
     display: inline-block;
-    float: center;
+    float: left;
     margin: 20px 20px 0 20px;
     box-shadow: 10px 5px 5px rgba(35, 93, 129, 0.349);
 }
