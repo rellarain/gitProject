@@ -3,7 +3,7 @@ header {
    background-color: black;
    color: white;
    font-size: 20px;
-   text-indent: 2.5%;
+   text-indent: 5%;
    height: 30px; 
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -96,4 +96,17 @@ h4 {
 
 p {
    font-size: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ProgressBar {
+   position: absolute;
+   display: inline-flexbox;
+   z-index: 360;
+
+}
+.barContainer {
+   position: absolute;
+   display: inline-flex;
+   z-index: 340;
+
 }
