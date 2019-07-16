@@ -1,0 +1,45 @@
+aside {
+   width: 35px;
+   height: 100%;
+   background: rgb(175, 175, 175);
+   position: fixed;
+   top: 0;
+   right: 0;
+   display: block;
+   z-index: 2;
+   box-shadow: inset 5px black;
+}
+header {
+   height: 35px;
+   width: 100%;
+   background: ;
+   position: fixed;
+   top: 0;
+   display: block;
+   z-index: 3;
+   background: palevioletred;
+   text-align: right;
+}
+#displayName {
+   color: white;
+   font-size: 20px;
+   vertical-align: middle;
+   letter-spacing: 4px;
+   line-height: 35px;
+   padding-right: 3px;
+   /* font-variant: small-caps; */
+   font-family: Arial, Helvetica, sans-serif;
+}
+#memberCode {
+   color: black;
+   font-weight: 700;
+   font-size: 15px;
+   vertical-align: middle;
+   letter-spacing: 2px;
+   margin-right: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   background: white;
+   display: inline-block;
+   padding: 3px 5px 3px 6px;
+   border-radius: 15px;
+}
