@@ -1,5 +1,5 @@
 aside {
-   width: 175px;
+   width: 215px;
    height: 100%;
    background: rgb(175, 175, 175);
    position: fixed;
@@ -40,14 +40,18 @@ header {
    font-family: Arial, Helvetica, sans-serif;
    background: white;
    display: inline-block;
-   padding: 3px 5px 3px 6px;
+   padding: 3px 5px 3px 7px;
    border-radius: 15px;
 }
-#menuIcon {
+.menuIcon {
    height: 30px;
    width: 30px;
-   z-index: 5;
+   z-index: 9;
    top: 2.5px;
    right: 2.5px;
    position: fixed;
 }
+
+
+/*
+https://www.flaticon.com/packs/basic-application
