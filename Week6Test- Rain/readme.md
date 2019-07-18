@@ -10,12 +10,19 @@ It is your boss who tells you that clients have been complaining about not being
 Login:
 
 Lines 33 and 34: usernameValue => username.value
+
 Lines 37 and 38: passwordValue => password.value
+
 Line 24: <button> => <button type="submit" name="button">
+
 
 Server: 
 
 Line 42: removed .html
+
 Line 54: ./404.html => ./db.txt
+
 Lines 61 and 62: 8080 => 5500
+
 Lines 47-49 and 56-58: if (error) {throw error;} 
+
