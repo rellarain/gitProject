@@ -21,11 +21,11 @@
 			Password
 			<input type="text" name="password">
 		</label>
-		<button type="submit" name="button">Submit</button>
+		<button>Submit</button>
 	</form>
 
 	<script>
-		var form = document.forms["authenticate"];
+		var form = document.forms["/authenticate"];
 		var submit = document.querySelector("button");
 		var username = form["username"];
 		var password = form["password"];
@@ -41,14 +41,14 @@
 		submit.addEventListener("click", function(event) {
 			event.preventDefault();
 			
-			var xhr = new XMLHttpRequest();
+			var xhr = new XMLHttpRequest(); 
 
 			xhr.onreadystatechange = function () {
 				if(this.readyState == 4 && this.status == 200) {
 					console.log(this.responseText);
 				}
 			}
-			var request = "./authenticate?username=" + username.value + "&password=" + password.value;
+			var request = "/authenticate?username=" + username.value + "&password=" + password.value;
 			xhr.open("GET", request, true);
 			xhr.send();
 		});

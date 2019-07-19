@@ -38,24 +38,20 @@ exports.server = function () {
     if (filePath == './') {
         filePath = './index.html';
 		} else {
-			filePath = "";
+			filePath = ".html";
 		}
 
 		console.log('request ', request.url);
 
 		fs.readFile(filePath, function (err, content) {
-			if (err) {
-				throw error;
-			}
+			
 			if(request.url === "/" || request.url === "/login") {
 				response.writeHead(200, { 'Content-Type': "text/html" });
 				response.end(content, 'utf-8');
 
 			} else {
 				fs.readFile('./db.txt', function(error, content) {
-					if (error) {
-						throw error;
-					}
+					
 					response.writeHead(200, { 'Content-Type': "text/html" });
 					response.end(content, 'utf-8');
 				});

@@ -4,10 +4,11 @@ aside {
    background: rgb(175, 175, 175);
    position: fixed;
    top: 0;
-   right: 0;
+   left: 0;
    display: block;
    z-index: 2;
    box-shadow: inset 5px black;
+   
 }
 header {
    height: 35px;
