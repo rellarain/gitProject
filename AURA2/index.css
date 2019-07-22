@@ -7,7 +7,7 @@ aside {
    left: 0;
    display: block;
    z-index: 2;
-   box-shadow: inset 5px black;
+   box-shadow: inset -5px 0px 5px rgba(51, 51, 51, 0.3);
    
 }
 header {
@@ -17,20 +17,29 @@ header {
    position: fixed;
    top: 0;
    display: block;
-   z-index: 3;
+   z-index: 4;
    background: palevioletred;
    text-align: right;
+   box-shadow: 0px 5px 5px rgba(87, 87, 87, 0.3));
 }
 #displayName {
    color: white;
    font-size: 20px;
    vertical-align: middle;
+   text-decoration: none;
    letter-spacing: 4px;
    line-height: 35px;
    padding-right: 3px;
    /* font-variant: small-caps; */
    font-family: Arial, Helvetica, sans-serif;
 }
+#displayName a:link {color: white; text-decoration: none;}
+#displayName a:visited {color: white; text-decoration: none;}
+#displayName a:active {color: white; text-decoration: none;}
+#displayName a:hover {color: white; text-decoration: none;}
+
+
+
 #memberCode {
    color: black;
    font-weight: 700;

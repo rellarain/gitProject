@@ -1,33 +1,60 @@
+header {
+   text-align: center;
+   font-size: 35px;
+   letter-spacing: 2px;
+}
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+   display: flex;
+   justify-content: center;
+}
 #sunSignCard {
-   display: inline-block;
+   display: flexbox;
+   background: lightcoral;
+   width: 25%;
+   text-align: center;
+   padding: 2%;
+   margin: 2%;
+   letter-spacing: 2px;
+   border-radius: 25px;
 }
 #moonSignCard {
-   
+   display: flexbox;
+   background: lightblue;
+   width: 25%;
+   text-align: center;
+   padding: 2%;
+   margin: 2%;
+   letter-spacing: 2px;
+   border-radius: 25px;
+
 }
 #risingSignCard {
-   
+   display: flexbox;
+   background: lightgreen;
+   width: 25%;
+   text-align: center;
+   padding: 2%;
+   margin: 2%;
+   letter-spacing: 2px;
+   border-radius: 25px;
+
 }
-#mercurySignCard {
-   
+.symbol {
+   font-size: 40px;
 }
-#venusSignCard {
-   
+p {
+   font-weight: 500;
+   font-size: 17.5px;
+   letter-spacing: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#marsSignCard {
-   
+label {
+font-size: 25px;
 }
-#jupiterSignCard {
-   
-}
-#saturnSignCard {
-   
-}
-#uranusSignCard {
-   
-}
-#neptuneSignCard {
-   
-}
-#plutoSignCard {
-   
+
+button {
+   text-align: center;
 }
