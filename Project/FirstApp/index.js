@@ -1,15 +1,16 @@
-var submit = document.querySelector(".submit");
-var content1 = document.querySelector(".sunSignEntry");
-var content2 = document.querySelector(".moonSignEntry");
-var content3 = document.querySelector(".risingSignEntry");
+window.onload = function() {
+   var submit = document.querySelector(".submit");
+   
+   submit.addEventListener("click", function selector(){
+      var content1 = document.querySelector(".sunSignEntry").value;
+      var content2 = document.querySelector(".moonSignEntry").value;
+      var content3 = document.querySelector(".risingSignEntry").value;
+    console.log(content1);
+    console.log(content2);
+    console.log(content3);
+   });
 
-submit.addEventListener("click", typeSelector);
-
-function typeSelector(){
-   var sun = content1.value;
-   var moon = content2.value;
-   var rising = content3.value;
-   console.log("Your sun sign is " + sun + ".");
-   console.log("Your moon sign is " + moon + ".");
-   console.log("Your rising sign is " + rising + ".");
 }
+
+//include a type, mode, and description of each sign
+//in the summary create a quantity of each type and mode
