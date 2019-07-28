@@ -1,0 +1,126 @@
+body {
+   font-family: 'Roboto', sans-serif;
+}
+.header {
+   height: 35px;
+   width: 100%;
+   background: ;
+   position: fixed;
+   top: 0;
+   display: block;
+   z-index: 4;
+   background: rgb(0, 192, 134);
+   text-align: right;
+   box-shadow: 0px 10px 10px rgba(144, 144, 144, 0.527);
+}
+#displayName {
+   color: white;
+   font-size: 20px;
+   vertical-align: middle;
+   text-decoration: none;
+   letter-spacing: 3px;
+   line-height: 35px;
+   font-weight: 600;
+   padding-right: 3px;
+   font-family: 'Roboto', sans-serif;
+}
+#displayName a:link {color: white; text-decoration: none;}
+#displayName a:visited {color: white; text-decoration: none;}
+#displayName a:active {color: white; text-decoration: none;}
+#displayName a:hover {color: white; text-decoration: none; text-shadow:0 0 4px rgba(255, 255, 255, 0.657);}
+
+
+
+#memberCode {
+   color: black;
+   font-weight: 700;
+   font-size: 15px;
+   vertical-align: middle;
+   letter-spacing: 2px;
+   margin-right: 10px;
+   font-family: 'Roboto', sans-serif;
+   background: white;
+   display: inline-block;
+   padding: 3px 5px 3px 7px;
+   border-radius: 15px;
+   height: 20px;
+   line-height: 22.5px;
+}
+
+.logoCol {
+   width: 20vw;
+   text-align: left;
+   padding-left: 2vw;
+   vertical-align: middle;
+   font-family: 'Roboto', sans-serif;
+   font-size: 25px;
+   font-weight: 600;
+   letter-spacing: 10px;
+}
+.ALink {
+   color: green;
+   text-decoration: none;
+   text-shadow:  -.75px -.75px 0 rgb(255, 255, 255), .75px -.75px 0 rgb(255, 255, 255), -.75px .75px 0 rgb(255, 255, 255), .75px .75px 0 rgb(255, 255, 255);;
+}
+.ULink {
+   color: rgb(0, 162, 255);
+   text-decoration: none;
+   text-shadow:  -.75px -.75px 0 rgb(255, 255, 255), .75px -.75px 0 rgb(255, 255, 255), -.75px .75px 0 rgb(255, 255, 255), .75px .75px 0 rgb(255, 255, 255);;
+}
+.RLink {
+   color: rgb(117, 48, 117);
+   text-decoration: none;
+   text-shadow:  -.75px -.75px 0 rgb(255, 255, 255), .75px -.75px 0 rgb(255, 255, 255), -.75px .75px 0 rgb(255, 255, 255), .75px .75px 0 rgb(255, 255, 255);;
+}
+.APLink {
+   color: rgb(128, 0, 0);
+   text-decoration: none;
+   text-shadow:  -.75px -.75px 0 rgb(255, 255, 255), .75px -.75px 0 rgb(255, 255, 255), -.75px .75px 0 rgb(255, 255, 255), .75px .75px 0 rgb(255, 255, 255);;
+}
+.logoCol a:hover {color: white; text-decoration: none; text-shadow:0 0 4px rgba(255, 255, 255, 0.657);}
+
+
+.userCol {
+   width: 76vw;
+   justify-items: end;
+   vertical-align: middle;
+}
+.menuCol {
+   width: 4vw;
+   vertical-align: middle;
+}
+.burger div{
+   width: 30px;
+   height: 5px;
+   background: white;
+   margin: 4px;
+   border-radius: 15px;
+   margin-right: 4px;
+}
+
+
+.submenu {
+   top: 35px;
+   background: white;
+   z-index: 1;
+   display: flex;
+   align-items: center;
+   vertical-align: middle;
+   position: fixed;
+   max-width: 100%;
+   min-height: 35px;
+}
+.submenuItem {
+   display: flexbox;
+   padding: 5px 10px 5px 12.5px;
+   margin: 0 5px;
+   background: rgb(0, 192, 134);
+   color: white;
+   border-radius: 15px;
+   font-weight: 600;
+   font-size: 15px;
+   letter-spacing: 2.5px;
+}
+
+/*
+https://www.flaticon.com/packs/basic-application
