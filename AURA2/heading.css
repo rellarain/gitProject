@@ -87,6 +87,7 @@ body {
 .menuCol {
    width: 4vw;
    vertical-align: middle;
+   justify-items: end;
 }
 .burger div{
    width: 30px;
