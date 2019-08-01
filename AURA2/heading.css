@@ -8,7 +8,7 @@ body {
    top: 0;
    display: block;
    z-index: 4;
-   background: rgb(0, 192, 134);
+   background: rgb(61, 129, 138);
    text-align: right;
    box-shadow: 0px 10px 10px rgba(144, 144, 144, 0.527);
 }
@@ -99,28 +99,7 @@ body {
 }
 
 
-.submenu {
-   top: 35px;
-   background: white;
-   z-index: 1;
-   display: flex;
-   align-items: center;
-   vertical-align: middle;
-   position: fixed;
-   max-width: 100%;
-   min-height: 35px;
-}
-.submenuItem {
-   display: flexbox;
-   padding: 5px 10px 5px 12.5px;
-   margin: 0 5px;
-   background: rgb(0, 192, 134);
-   color: white;
-   border-radius: 15px;
-   font-weight: 600;
-   font-size: 15px;
-   letter-spacing: 2.5px;
-}
+
 
 /*
 https://www.flaticon.com/packs/basic-application
