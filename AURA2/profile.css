@@ -1,20 +1,21 @@
 img {
-   height: 60%;
+   width: 40%;
    margin: 0px 25px 0 25px;
    position: relative;
+   display: flexbox;
 }
 .body {
    top: 50px;
    position: relative;
    width: 100%;
-}
-.profilePicture {
-   width: 210px;
+   display: flex;
 }
 .profileInfo {
    width: auto;
    vertical-align: top;
    padding-right: 25px;
+   display: flexbox;
+   float: left;
 }
 h1 {
    font-size: 35px;
