@@ -1,0 +1,47 @@
+What's the point of id's in HTML?
+ID's are for single use, demarcated by a pound sign, and are good for identifying 
+a created element with a single purpose (like the individual styling or scripting 
+of profile cards on a page with many profile cards).
+
+What's the difference between a class and an id?
+A class is good for selecting groups of items, and an id is good for selecting one
+item among many.
+
+How do you select a class in javascript?
+getElementsByClassName()
+
+How do you select an id in javascript?
+getElementById()
+
+What are the two ways of applying click listeners in javascript?
+in HTML: button onclick="function()"
+in JS: document.getElementById("button").addEventListener("click", function);
+
+How do you define and use a callback function?
+You define a callback function as an argument within a higher-order function;
+you call the callback within a higherorder function that is called when a 
+certain prerequisite/argument is met
+
+How do you call a function?
+function();
+
+What is the purpose of using functions?
+to do things; to make your page process data or interact with the user
+
+What is the difference between = and ==?
+= assignment
+== value equality check
+=== data type and value equality check
+
+What does a return statement do?
+return statements generate a response from the code and exit the thread
+
+What is a conditional statement?
+A conditional statement is a piece of code that checks for whether a condition is true or false
+
+What is a boolean?
+a boolean response is either true (1) or false (0)
+
+How can you define different types of loops?
+for: for (i=0; i <= array.length; i++)
+while: while (i <= array.length)
