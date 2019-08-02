@@ -1,0 +1,103 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+
+#ASection {
+   width: 100%;
+   height: 25%;
+   background: green;
+   display: flexbox;
+   align-items: center;
+
+}
+#ASectionIcon {
+   display: flexbox;
+   font-size: 150px;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   background: white;
+   text-align: center;
+   line-height: 195px;
+   vertical-align: middle;
+   margin: 20px;
+   color: green;
+}
+
+
+#USection {
+   width: 100%;
+   height: 25%;
+   background: rgb(0, 149, 218);
+   display: flexbox;
+   position: relative;
+   align-content: center;
+}
+#USectionIcon {
+   display: flexbox;
+   font-size: 150px;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   background: white;
+   text-align: center;
+   line-height: 210px;
+   vertical-align: middle;
+   margin: 20px;
+   color: rgb(0, 149, 218);
+}
+
+
+
+#RSection {
+   width: 100%;
+   height: 25%;
+   background: rgb(95, 0, 124);
+   display: flexbox;
+   position: relative;
+}
+#RSectionIcon {
+   display: flexbox;
+   font-size: 150px;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   background: white;
+   text-align: center;
+   line-height: 205px;
+   vertical-align: middle;
+   margin: 20px;
+   color: rgb(95, 0, 124);
+}
+
+
+
+#APSection {
+   width: 100%;
+   height: 25%;
+   background: darkred;
+   display: flexbox;
+   position: relative;
+}
+#APSectionIcon {
+   display: flexbox;
+   font-size: 150px;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   background: white;
+   text-align: center;
+   line-height: 195px;
+   vertical-align: middle;
+   margin: 20px;
+   color: darkred;
+}
+
+
+@media (max-width: 640px) {
+
+}

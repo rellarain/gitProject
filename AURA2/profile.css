@@ -1,19 +1,21 @@
-img {
-   width: 40%;
+#profilePhoto {
+   width: 250px;
    margin: 0px 25px 0 25px;
    position: relative;
    display: flexbox;
+   float: left;
 }
 .body {
    top: 50px;
    position: relative;
    width: 100%;
    display: flex;
+   flex-wrap: nowrap;
 }
 .profileInfo {
    width: auto;
    vertical-align: top;
-   padding-right: 25px;
+   margin: 15px 15px 0 10px;
    display: flexbox;
    float: left;
 }
@@ -48,7 +50,11 @@ h5 {
 }
 
 @media (max-width: 640px) {
-   img {
-      width: 40%;
+   .profileInfo {
+      width: auto;
+   }
+   .body {
+      justify-content: center;
+      flex-wrap: wrap;
    }
 }
