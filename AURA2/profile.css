@@ -48,6 +48,6 @@ h5 {
 
 @media (max-width: 640px) {
    img {
-      height: 40%;
+      width: 40%;
    }
 }
