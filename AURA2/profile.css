@@ -45,3 +45,9 @@ h5 {
    font-style: italic;
    margin-top: 5px;
 }
+
+@media (max-width: 640px) {
+   img {
+      height: 40%;
+   }
+}
