@@ -99,7 +99,11 @@ body {
 }
 
 
-
+@media (max-width: 640px) {
+   #memberCode {
+      display: none;
+   }
+}
 
 /*
 https://www.flaticon.com/packs/basic-application
