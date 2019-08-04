@@ -1,0 +1,109 @@
+#container {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+.Card {
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 40px;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px;
+    position: relative;
+    float: none;
+}
+.Icon {
+    display: flexbox;
+    font-size: 90px;
+    font-weight: bolder;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.788);
+    color: rgb(255, 255, 255);
+    margin: 20px 30% 15px 30%;
+}
+.title {
+    display: flexbox;
+    align-self: flex-start;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+}
+.functionCont {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.function {
+    min-width: auto;
+    max-width: 300px;
+    margin: 0 10px 15px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flexbox;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.788);
+
+}
+h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    line-height: 17.5px;
+}
+
+
+
+
+
+#ACard {
+    background: darkgreen;
+    box-shadow: 0 0 60px white, 0 -5px 20px rgb(39, 240, 39), -5px -5px 40px rgb(164, 233, 164);
+}
+#AIcon {
+    line-height: 95px;
+    background: rgb(32, 77, 32);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.466), 0 0 10px rgba(171, 226, 171, 0.582);
+}
+#Atitle {
+    background: rgb(0, 43, 0);
+}
+#Afunction {
+    background: rgb(32, 77, 32);
+}
+
+
+
+#UCard {
+    background: rgb(20, 170, 216);
+    box-shadow: 0 0 60px white, 0 -5px 20px rgb(2, 238, 255), -5px -5px 40px rgb(124, 240, 255);
+}
+#UIcon {
+    line-height: 105px;
+    background: rgb(14, 109, 138);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.466), 0 0 10px rgba(19, 220, 255, 0.582);
+}
+#Utitle {
+    background: rgb(8, 58, 73);
+}
+#Ufunction {
+    background: rgb(14, 109, 138);
+}
